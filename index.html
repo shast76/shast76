@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yiğit Bilge Atalar | Systems & Cloud Engineer</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --text-primary: #c9d1d9;
+            --text-secondary: #8b949e;
+            --accent-color: #58a6ff;
+            --badge-bg: #21262d;
+            --badge-text: #79c0ff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--bg-color);
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 2.2rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .subtitle {
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .location {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-top: 0.3rem;
+            margin-bottom: 1.2rem;
+        }
+
+        /* Tıklanabilir Butonlar */
+        .btn-group {
+            display: flex;
+            gap: 0.8rem;
+            margin-top: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #238636;
+            color: #ffffff;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #2ea043;
+            text-decoration: none;
+        }
+
+        .btn-secondary {
+            background-color: var(--badge-bg);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #30363d;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.4rem;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tag {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            padding: 0.35rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.88rem;
+            border: 1px solid var(--border-color);
+            font-weight: 500;
+        }
+
+        /* Proje Kartları */
+        .project-card {
+            display: block;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.2rem;
+            text-decoration: none;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        a.project-card:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+
+        .project-card h3 {
+            margin: 0 0 0.5rem 0;
+            color: var(--accent-color);
+            font-size: 1.15rem;
+        }
+
+        .project-card p {
+            margin: 0 0 0.4rem 0;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .project-card p strong {
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Yiğit Bilge Atalar</h1>
+        <div class="subtitle">Systems & Cloud Engineering Enthusiast | Infrastructure Developer</div>
+        <div class="location">📍 Ankara, Türkiye</div>
+        
+        <!-- Karşılama Butonları -->
+        <div class="btn-group">
+            <a href="https://github.com/shast76" target="_blank" class="btn">Explore GitHub</a>
+            <a href="https://learn.microsoft.com" target="_blank" class="btn btn-secondary">Microsoft Learn Profile</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Executive Summary</h2>
+        <p>
+            High school student passionate about low-level system architecture, cloud infrastructure, containerization, and Linux optimizations. Experienced in designing self-hosted hybrid cloud environments, configuring virtual networks, and managing containerized microservices. Driven by a vision to build scalable, high-performance distributed systems as a future Cloud Engineer.
+        </p>
+    </section>
+
+    <section>
+        <h2>Technical Stack & Ecosystem</h2>
+        <div class="skills-grid">
+            <span class="tag">Linux Kernel Tuning & Custom Patchsets</span>
+            <span class="tag">Docker & Microservices Management</span>
+            <span class="tag">ZimaOS & Self-Hosted Infrastructure</span>
+            <span class="tag">Cloudflare Tunnels & Custom DNS Routing</span>
+            <span class="tag">Reverse Proxies & Zero-Trust Networking</span>
+            <span class="tag">Microcontrollers (Raspberry Pi, ESP8266) & Home Assistant</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Featured Engineering Projects</h2>
+
+        <!-- Proje Kartı 1: Home Server (Basılamaz/Tıklanamaz Kart) -->
+        <div class="project-card">
+            <h3>Home Server & Hybrid Cloud Lab</h3>
+            <p><strong>Overview:</strong> A self-hosted microservices infrastructure running on ZimaOS and managed via Docker containers.</p>
+            <p><strong>Architecture:</strong> Features secure remote routing through Cloudflare Tunnels, automated media and streaming pipelines (Plex, ErsatzTV), and integrated Home Assistant smart automation.</p>
+            <p><strong>Key Focus:</strong> Network security, container lifecycle management, zero-trust access, and storage optimization.</p>
+        </div>
+
+        <!-- Proje Kartı 2: Baldic OS (Tıklanabilir) -->
+        <a href="https://github.com/shast76/Baldic-OS" target="_blank" class="project-card">
+            <h3>Baldic OS (Linux Distribution & Shell Concept)</h3>
+            <p><strong>Overview:</strong> A custom Linux distribution concept incorporating the personalized MetroWiz design language.</p>
+            <p><strong>Architecture:</strong> Focused on modular system utilities, custom desktop shell concepts, and lightweight resource management.</p>
+            <p><strong>Key Focus:</strong> System UI/UX architecture, shell scripting, and environment customization.</p>
+        </a>
+
+        <!-- Proje Kartı 3: Kernel Experiments (Tıklanabilir) -->
+        <a href="https://github.com/shast76/Baldic-OS/releases" target="_blank" class="project-card">
+            <h3>Custom Kernel & OS Experiments</h3>
+            <p><strong>Overview:</strong> Low-level patchset evaluations aimed at kernel performance optimization and driver compatibility.</p>
+            <p><strong>Architecture:</strong> Involves low-latency configurations and Android system runtime tuning.</p>
+            <p><strong>Key Focus:</strong> Kernel compilation, system debugging, and low-level resource allocation.</p>
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 Yiğit Bilge Atalar • Powered by GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
